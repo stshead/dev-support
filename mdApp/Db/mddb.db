@@ -1,0 +1,15 @@
+record(sub, "PC:REC1")
+{
+    field(SNAM,"readval")
+    field(SCAN, "Event")
+    field(EVNT, "trig1")
+}
+
+record(ai, "PC:REC2")
+{
+  field(DTYP, "MydevSup")
+  field(INP, "@D_param2")
+  field(SCAN, "Event")
+  field(EVNT, "trig1")
+  field(PREC, "2")
+}

@@ -1,0 +1,5 @@
+registrar(mdRegister)
+
+function(readval)
+
+device(ai, INST_IO, Mydrv, "MydevSup")
